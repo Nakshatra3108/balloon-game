@@ -30,7 +30,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   bg = createSprite(width / 2, height / 2, windowWidth, windowHeight);
   bg.addImage(bg0);
-  bg.scale = 2.5;
+  bg.scale = 5;
 
   bow = createSprite(width - 100, height / 2);
   bow.addAnimation("bow", bow0);
